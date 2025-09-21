@@ -1,0 +1,3 @@
+C:/Users/daria/desktop/oop/лаба1/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/Users/daria/desktop/oop/лаба1/build/_deps/googletest-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/daria/desktop/oop/лаба1/build/_deps/googletest-subbuild/CMakeFiles/ZERO_CHECK.dir
