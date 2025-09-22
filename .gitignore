@@ -1,3 +1,15 @@
+
+build/
+*.obj
+*.exe
+*.pdb
+*.idb
+*.ilk
+*.log
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
 # Prerequisites
 *.d
 

@@ -3,7 +3,7 @@
 #include <windows.h>
 using namespace std;
 
-extern long eliminate_unset_bits(string number);
+long eliminate_unset_bits(string number);
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);

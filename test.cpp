@@ -2,7 +2,7 @@
 #include <string>
 #include <iostream>
 
-extern long eliminate_unset_bits(std::string number);
+long eliminate_unset_bits(std::string number);
 
 TEST(EliminateUnsetBitsTest, BasicTests) {
     EXPECT_EQ(eliminate_unset_bits("1101010101010101"), 511);  
