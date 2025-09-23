@@ -3,7 +3,7 @@
 #include <string>
 
 
-long eliminate_unset_bits(std::string number);
+//long eliminate_unset_bits(std::string number);
 
 long eliminate_unset_bits(std::string number) {
     int res = 0;
