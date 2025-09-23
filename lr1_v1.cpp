@@ -16,7 +16,7 @@ long eliminate_unset_bits(string number) {
         if (symbol == '1') {
             res += 1;
         } else if (symbol != '0') {
-            cerr << "Ошибка: недопустимый символ '" << symbol << "' в двоичной строке!" << endl;
+            cerr << "Error: invalid character '" << symbol << "' in binary string!" << endl;
             return -1; 
         }
     }

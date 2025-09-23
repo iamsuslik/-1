@@ -30,3 +30,7 @@ TEST(EliminateUnsetBitsTest, AllZeros) {
 TEST(EliminateUnsetBitsTest, MixedCharacters) {
     EXPECT_EQ(eliminate_unset_bits("1010101010101010101010101"), 8191);
 }
+
+TEST(EliminateUnsetBitsTest, InvalidInput) { 
+    EXPECT_EQ(eliminate_unset_bits("10201"), -1);
+}
