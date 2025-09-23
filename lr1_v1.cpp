@@ -1,11 +1,10 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
-using namespace std;
 
-long eliminate_unset_bits(string number);
+long eliminate_unset_bits(std::string number);
 
-long eliminate_unset_bits(string number) {
+long eliminate_unset_bits(std::string number) {
     int res = 0;
     
     if (number.empty()) {
@@ -16,7 +15,7 @@ long eliminate_unset_bits(string number) {
         if (symbol == '1') {
             res += 1;
         } else if (symbol != '0') {
-            cerr << "Error: invalid character '" << symbol << "' in binary string!" << endl;
+            std::cerr << "Error: invalid character '" << symbol << "' in binary string!" << std::endl;
             return -1; 
         }
     }

@@ -1,23 +1,23 @@
 #include <iostream>
 #include <string>
 #include <windows.h>
-using namespace std;
 
-long eliminate_unset_bits(string number);
+
+long eliminate_unset_bits(std::string number);
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     SetConsoleCP(CP_UTF8);
 
-    string input;
+    std::string input;
 
-    cout << "Введите двоичное число (только 0 и 1): ";
-    cin >> input;
+    std::cout << "Введите двоичное число (только 0 и 1): ";
+    std::cin >> input;
     
     long result = eliminate_unset_bits(input);
     
     if (result != -1) {
-        cout << "Результат: eliminate_unset_bits(\"" << input << "\") = " << result << endl;
+        std::cout << "Результат: eliminate_unset_bits(\"" << input << "\") = " << result << std::endl;
     }
     
     return 0;
