@@ -1,3 +1,4 @@
+#include "lr1.h"
 #include <gtest/gtest.h>
 #include <string>
 #include <iostream>
@@ -32,5 +33,5 @@ TEST(EliminateUnsetBitsTest, MixedCharacters) {
 }
 
 TEST(EliminateUnsetBitsTest, InvalidInput) { 
-    EXPECT_EQ(eliminate_unset_bits("10201"), -1);
+    EXPECT_EQ(eliminate_unset_bits("10201"), INVALID_RESULT);
 }

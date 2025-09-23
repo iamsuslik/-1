@@ -1,3 +1,4 @@
+#include "lr1.h"
 #include <iostream>
 #include <string>
 #include <windows.h>
@@ -16,7 +17,9 @@ int main() {
     
     long result = eliminate_unset_bits(input);
     
-    if (result != -1) {
+    if (result == INVALID_RESULT) {
+        std::cout << "Введены некорректные данные!" << std::endl;
+    } else {
         std::cout << "Результат: eliminate_unset_bits(\"" << input << "\") = " << result << std::endl;
     }
     
